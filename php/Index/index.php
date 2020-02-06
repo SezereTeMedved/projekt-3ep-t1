@@ -8,9 +8,13 @@
 </head>
 <body>
     <header>
+        <h1>Škola pro mě</h1>
+        
     </header>
 
     <main>
+        <article>
+        </article>
     </main>
 
     <footer>
