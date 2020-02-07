@@ -10,36 +10,49 @@
 <body>
     <header>
         <h1>Škola pro mě</h1>
-        
     </header>
     <nav>
 
-        <div class="navZS">
-            <button>Základní školy</button>
-            <div class="navZS_list">
-                <a href="">Klasické</a>
-                <a href="">Speciální</a>
-            </div>
-        </div>
+        <table id="navi" class="navZS">
+            <tr>
+                <th>Základní školy</th>
+            </tr>
+            <tr class="navZS_list">
+                <td><a href="">Klasické</a></td>
+            </tr>
+            <tr class="navZS_list">
+                <td><a href="">Speciální</a></td>
+            </tr>
+        </table>
 
-        <div class="navSS">
-            <button>Střední školy</button>
-            <div class="navSS_list">
-                <a href="">Gymnazia</a>
-                <a href="">Odborné</a>
-                <a href="">Učňovské</a>
-            </div>
-        </div>
+        <table id="navi" class="navSS">
+            <tr>
+                <th>Střední školy</th>
+            </tr>
+            <tr class="navSS_list">
+                <td><a href="">Gymnazia</a></td>
+            </tr>
+            <tr class="navSS_list">
+                <td><a href="">Odborné</a></td>
+            </tr>
+            <tr class="navSS_list">
+                <td><a href="">Učňovské</a></td>
+            </tr>
+        </table >
 
-        <div class="navVS">
-            <button>Vysoké školy</button>
-            <div class="navVS_list">
-                <a href="">Univerzitní</a>
-                <a href="">Neuniverzitní</a>
-            </div>
-        </div>
+        <table id="navi" class="navVS">
+            <tr>
+                <th>Vysoké školy</th>
+            </tr>
+            <tr class="navVS_list">
+                <td><a href="">Univerzitní</a></td>
+            </tr>
+            <tr class="navVS_list">
+                <td><a href="">Neuniverzitní</a></td>
+            </tr>
+        </table>
       
-        <a href="">Přidat školu</a>
+        <a id="navi" href="">Přidat školu</a>
     </nav>
 
     <main>
