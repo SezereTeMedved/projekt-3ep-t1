@@ -1,7 +1,29 @@
 nav
 {
     position: relative;
-    display: inline-block;
+    display: inline;
+}
+
+table
+{
+
+    border-collapse: collapse;
+}
+
+#navi
+{
+    display: inline;
+}
+
+a
+{
+ display: block;
+}
+
+
+#div
+{
+    display: inline;
 }
 
 .navZS_list
